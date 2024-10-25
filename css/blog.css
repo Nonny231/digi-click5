@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0 !important;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity));
+}
+nav a{
+    --bs-nav-link-color: white !important;
+}
+.image-container{
+    width: 100%;
+}
+.container .image{
+    background-image: url(../images/thought.png);
+    margin: 50px auto;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+.container .row{
+    margin: 0 auto;
+}
+
+ /* Row layout for the entire content */
+ .row-layout {
+    margin-bottom: 30px;
+}
+.container .margin-top{
+    margin-top: 30px;
+}
+
+/* Individual item inside the row */
+.row-item {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Image in the row-item */
+.row-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Title inside the row-item */
+.row-item h5 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Button inside the row-item */
+.row-item .btn {
+    margin-top: 10px;
+    background-color: #0a5e45;
+    color: white;
+}
+
+/* Adjust padding between buttons */
+.btn-group {
+    margin-top: 20px;
+    /* width: 100%; */
+}
+.col-md-3 p{
+    text-align: left;
+    font-size: 0.5rem;
+}
+
+.container-fluid{
+    margin-top: 30px !important;
+ }
+ .container-fluid .container{
+    margin-top: 30px;
+ }
+ .container-fluid .row .col a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+
+ }
+ .container-fluid .row .col a:nth-of-type(1){
+    padding-left: 0;
+ }
+ .container-fluid .row .footer-link{
+    margin-top: 10px;
+ }
+
+ .copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+ .container-fluid {
+    /* margin: 0 !important; */
+    background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+     padding: 20px 0;
+    color: white;
+ }
+ input{
+    width: 200px !important;
+ }
+
+ i:nth-of-type(1){
+    padding-left: 0 !important;
+ }
+
+ i{
+    padding-left: 10px;
+ }

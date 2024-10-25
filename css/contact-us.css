@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/contact-bg-img.png);
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0 !important;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity));
+}
+nav a{
+    --bs-nav-link-color: white !important;
+}
+.container h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-container {
+    display: flex;
+    background-color: #004236;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.left-section {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.left-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.right-section {
+    flex: 1.5;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #808080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: not-allowed; /* Disabled state */
+    border-radius: 5px;
+    width: 100px;
+}
+
+/* Adjust colors for the form fields */
+input::placeholder, textarea::placeholder {
+    color: #d1d1d1;
+}
+.form-group.submit-group {
+    text-align: right; /* Align the button to the right */
+}
+.container-fluid{
+    margin-top: 30px !important;
+ }
+ .container-fluid .container{
+    margin-top: 30px;
+ }
+ .container-fluid .row .col a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+
+ }
+ .container-fluid .row .col a:nth-of-type(1){
+    padding-left: 0;
+ }
+ .container-fluid .row .footer-link{
+    margin-top: 10px;
+ }
+
+ .copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+ .container-fluid {
+    /* margin: 0 !important; */
+    background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+     padding: 20px 0;
+    color: white;
+ }
+ input{
+    width: 200px !important;
+ }
+
+ i:nth-of-type(1){
+    padding-left: 0 !important;
+ }
+
+ i{
+    padding-left: 10px;
+ }
